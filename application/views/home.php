@@ -131,7 +131,7 @@
        <section class = 'jumbotron animate-box'>
 <div class = 'container'>
 <div class = 'row text-center'>
-<h2>Here are some projects to start with</h2>
+<h2>Projects to contribute</h2>
 <h3 class = 'name'></h3>
 </div>
 </div>
@@ -144,7 +144,7 @@
                     <img alt="" class="img-responsive" src="<?php echo base_url('assetsWeb/images/saturday.jpg')?>">
 
                     <div class="caption">
-                        <h4>Saturday</h4>
+                        <h4>OpenCodeWeb</h4>
                     </div>
                 </div>
             </div>

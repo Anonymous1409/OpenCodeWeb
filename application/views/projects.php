@@ -3,7 +3,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section">
-						<h2>Our Projects</h2>
+						<h2>Contribute</h2>
 						<h3>You can become a contributor too! Here are some projects to start with!</h3>
 					</div>
 				</div>
@@ -14,7 +14,7 @@
                     <img alt="" class="img-responsive" src="<?php echo base_url('assetsWeb/images/saturday.jpg')?>">
 
                     <div class="caption">
-                        <h4>Saturday</h4>
+                        <h4>OpenCodeWeb</h4>
                     </div>
                 </div>
             </div>
