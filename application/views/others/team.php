@@ -47,6 +47,7 @@
 									<span>Mentor</span>
 									<p>write something</p>
 									<p class="fh5co-social-icons">
+								<a href="https://github.com/OpenCodeWeb"><i class="icon-github-with-circle"></i></a>
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
 										<a href="#"><i class="icon-instagram-with-circle"></i></a>
@@ -63,6 +64,7 @@
 									<span>President, App-Dev</span>
 									<p>write something</p>
 									<p class="fh5co-social-icons">
+										<a href="https://github.com/OpenCodeWeb"><i class="icon-github-with-circle"></i></a>
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
 										<a href="#"><i class="icon-instagram-with-circle"></i></a>
@@ -79,6 +81,7 @@
 									<span>Projects Head, Robotics</span>
 									<p>write something</p>
 									<p class="fh5co-social-icons">
+										<a href="https://github.com/OpenCodeWeb"><i class="icon-github-with-circle"></i></a>
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
 										<a href="#"><i class="icon-instagram-with-circle"></i></a>
@@ -95,6 +98,7 @@
 									<span>Founder,Vice President, Web-Dev</span>
 									<p>write something</p>
 									<p class="fh5co-social-icons">
+										<a href="https://github.com/OpenCodeWeb"><i class="icon-github-with-circle"></i></a>
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
 										<a href="#"><i class="icon-instagram-with-circle"></i></a>
@@ -113,6 +117,7 @@
 									<span>Co-ordinator, App-dev, Robotics</span>
 									<p>write something.</p>
 									<p class="fh5co-social-icons">
+										<a href="https://github.com/OpenCodeWeb"><i class="icon-github-with-circle"></i></a>
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
 										<a href="#"><i class="icon-instagram-with-circle"></i></a>
@@ -129,6 +134,7 @@
 									<span>Treasurer, Web-Dev</span>
 									<p>write something</p>
 									<p class="fh5co-social-icons">
+										<a href="https://github.com/OpenCodeWeb"><i class="icon-github-with-circle"></i></a>
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
 										<a href="#"><i class="icon-instagram-with-circle"></i></a>
@@ -146,6 +152,7 @@
 									<span>Web-Dev</span>
 									<p>write something</p>
 									<p class="fh5co-social-icons">
+										<a href="https://github.com/OpenCodeWeb"><i class="icon-github-with-circle"></i></a>
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
 										<a href="#"><i class="icon-instagram-with-circle"></i></a>

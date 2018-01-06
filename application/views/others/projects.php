@@ -11,11 +11,11 @@
             <div class="col-sm-4">
                 <div class="thumbnail text-center">
                    <div class="img">
-                        <a href="<?php echo base_url(); ?>projects/saturday"><img src="<?php echo base_url(); ?>assetsWeb/images/saturday.jpg" width="350" height="300" alt="<?php echo base_url(); ?>assetsWeb/images/saturday.jpg">
+                        <a href="<?php echo base_url(); ?>projects/opencodeweb"><img src="<?php echo base_url(); ?>assetsWeb/images/saturday.jpg" width="350" height="300" alt="<?php echo base_url(); ?>assetsWeb/images/saturday.jpg">
                             <div class="overlay"></div></a>
                             </div>
                          <div class="caption">
-                        <a href="<?php echo base_url(); ?>projects/saturday"><h4>Saturday</h4></a>
+                        <a href="<?php echo base_url(); ?>projects/opencodeweb"><h4>Saturday</h4></a>
                     </div>
                 </div>
             </div>

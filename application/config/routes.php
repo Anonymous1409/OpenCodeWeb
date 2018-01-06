@@ -9,7 +9,7 @@ $route['projects'] = 'Opencode/projects';
 
 $route['projects/chessbot'] = 'Opencode/chessbot';
 $route['projects/minipaint'] = 'Opencode/minipaint';
-$route['projects/saturday'] = 'Opencode/saturday';
+$route['projects/opencodeweb'] = 'Opencode/opencodeweb';
 
 
 $route['start_project'] = 'Opencode/start_project';

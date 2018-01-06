@@ -37,10 +37,10 @@ if( ! defined('BASEPATH')) exit('No direct script access allowed');
             $this->load->view('projects/minipaint');
             $this->load->view('templates/footer');
     }
-        public function saturday(){
+        public function opencodeweb(){
 
             $this->load->view('templates/header');
-            $this->load->view('projects/saturday');
+            $this->load->view('projects/opencodeweb');
             $this->load->view('templates/footer');
     }
 
