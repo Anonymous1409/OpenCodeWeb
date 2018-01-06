@@ -19,11 +19,11 @@
 							<p><strong>Contacts:</strong></p>
 						</div>
 						<div class="col-md-3">
-							<p><strong>President: +91 8763145905</strong></p>
+							<p><strong>President: +91 9040409540</strong></p>
 						</div>
 
 						<div class="col-md-3">
-							<p><strong>Vice-President: +91 9040409540 </strong></p>
+							<p><strong>Vice-President: +91 7609904323 </strong></p>
 						</div>
 					</div>
 					<div class="row">
@@ -36,7 +36,7 @@
 
 					<div class="row">
 						<div class="col-md-6">
-							<p><strong>Faculty Advisor: Dr. Paresh Kale</strong></p>
+							<p><strong>Faculty Advisor: Dr.Paresh Kale</strong></p>
 						</div>
 						<div class="col-md-6">
 							
