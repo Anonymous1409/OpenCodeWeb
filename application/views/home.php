@@ -160,7 +160,7 @@
 
 		<div class="col-sm-4">
                 <div class="thumbnail text-center">
-                    <img alt="" class="img-responsive" src="<?php echo base_url('assetsWeb/images/saturday.jpg')?>">  
+                    <img alt="" class="img-responsive" src="<?php echo base_url('assetsWeb/images/paint_icon.png')?>">  
 
                     <div class="caption">
                         <h4>MinPaint</h4>

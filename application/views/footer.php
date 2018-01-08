@@ -8,7 +8,7 @@
 						<div class="col-md-6 social-text-align">
 							<p class="fh5co-social-icons">
 								<a href="#"><i class="icon-twitter-with-circle"></i></a>
-								<a href="#"><i class="icon-facebook-with-circle"></i></a>
+								<a href="https://www.facebook.com/OpenCodeCommunity"><i class="icon-facebook-with-circle"></i></a>
 								<a href="#"><i class="icon-instagram-with-circle"></i></a>
 							</p>
 						</div>

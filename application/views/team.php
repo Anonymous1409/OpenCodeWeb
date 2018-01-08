@@ -46,7 +46,7 @@
 								<div class="desc">
 									<h3>Anup routray</h3>
 									<span>Mentor</span>
-									<p>write something</p>
+									<!--<p>write something</p> -->
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -61,8 +61,7 @@
 							<div class="overlay-section">
 								<div class="desc">
 									<h3>Acharya Aditya Pratap</h3>
-									<span>President, App-Dev</span>
-									<p>write something</p>
+									<span>App-Dev</span>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -77,8 +76,7 @@
 							<div class="overlay-section">
 								<div class="desc">
 									<h3>Prabin Rath</h3>
-									<span>Projects Head, Robotics</span>
-									<p>write something</p>
+									<span>Robotics</span>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -93,8 +91,7 @@
 							<div class="overlay-section">
 								<div class="desc">
 									<h3>Shaswat Lenka</h3>
-									<span>Founder,Vice President, Web-Dev</span>
-									<p>write something</p>
+									<span>Web-Dev</span>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -111,8 +108,7 @@
 							<div class="overlay-section">
 								<div class="desc">
 									<h3>Subham Sahoo</h3>
-									<span>Co-ordinator, App-dev, Robotics</span>
-									<p>write something.</p>
+									<span>Robotics</span>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -127,8 +123,7 @@
 							<div class="overlay-section">
 								<div class="desc">
 									<h3>Sainandan Mohanty</h3>
-									<span>Treasurer, Web-Dev</span>
-									<p>write something</p>
+									<span>App-Dev</span>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -145,7 +140,6 @@
 								<div class="desc">
 									<h3>Malkhan Singh</h3>
 									<span>Web-Dev</span>
-									<p>write something</p>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
