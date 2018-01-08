@@ -7,36 +7,93 @@ if( ! defined('BASEPATH')) exit('No direct script access allowed');
 		}
 
 		public function home(){
-            
-           $this->load->view('header');
-            $this->load->view('home');
-            $this->load->view('footer');
+
+            $this->load->view('templates/header');
+            $this->load->view('home/home');
+            $this->load->view('templates/footer');
 	}
 
         public function about(){
      
-            $this->load->view('header');
-            $this->load->view('about');
-            $this->load->view('footer');
+            $this->load->view('templates/header');
+            $this->load->view('others/about');
+            $this->load->view('templates/footer');
          }
         public function projects(){
 
-            $this->load->view('header');
-            $this->load->view('projects');
-            $this->load->view('footer');
-           }
-        public function start_project(){
+            $this->load->view('templates/header');
+            $this->load->view('others/projects');
+            $this->load->view('templates/footer');
+        }
+        public function chessbot(){
 
-            $this->load->view('header');
-            $this->load->view('start_project');
-            $this->load->view('footer');
+            $this->load->view('templates/header');
+            $this->load->view('projects/chessbot');
+            $this->load->view('templates/footer');
+    }
+        public function minipaint(){
+
+            $this->load->view('templates/header');
+            $this->load->view('projects/minipaint');
+            $this->load->view('templates/footer');
+    }
+        public function opencodeweb(){
+
+            $this->load->view('templates/header');
+            $this->load->view('projects/opencodeweb');
+            $this->load->view('templates/footer');
+    }
+
+        public function start_project(){
+        $data = array();
+        $userData = array();
+        if($this->input->post('ideaSubmit')){
+            $this->form_validation->set_rules('category', 'Category', 'required');
+            $this->form_validation->set_rules('title', 'Title', 'required');
+            $this->form_validation->set_rules('message', 'Message', 'required');
+         //   $this->form_validation->set_rules('conf_password', 'confirm password', 'required|matches[password]');
+
+            $userData = array(
+                'messageTitle' => strip_tags($this->input->post('title')),
+                'message' => strip_tags($this->input->post('message')),
+                'category' => $this->input->post('category')
+               );
+
+            if($this->form_validation->run() == true){
+                $insert = $this->Mopencode->insertIdea($userData);
+                if($insert){
+                    $this->session->set_userdata('success_msg', 'Your idea submittet successfully.');
+                    redirect('Opencode/userMessageListing');
+                }else{
+                    $data['error_msg'] = 'Some problems occured, please try again.';
+                }
+            }
+        }
+        $data['Mopencode'] = $userData;
+        //load the view
+    //    $this->load->view('users/opencode_register_page', $data);
+    
+            $this->load->view('templates/header');
+            $this->load->view('others/start_project',$data);
+            $this->load->view('templates/footer');
            }
         public function team(){
 
-            $this->load->view('header');
-            $this->load->view('team');
-            $this->load->view('footer');
+            $this->load->view('templates/header');
+            $this->load->view('others/team');
+            $this->load->view('templates/footer');
            }
+        public function userMessageListing(){
+
+            $this->load->model('Mopencode');
+        
+            $data["results"] = $this->Mopencode->getIdea($this->session->userdata('userId'));
+            
+            $this->load->view('templates/header');
+            $this->load->view('others/user_message',$data);
+            $this->load->view('templates/footer');
+           
+    }
 
 
     public function comments(){
@@ -63,16 +120,16 @@ if( ! defined('BASEPATH')) exit('No direct script access allowed');
         $this->load->model('Mopencode');
     }
 
-	 public function account(){
+	/* public function account(){
         $data = array();
         if($this->session->userdata('isUserLoggedIn')){
-            $data['Mopencode'] = $this->Mopencode->getRows(array('id'=>$this->session->userdata('userId')));
+            $data['Mopencode'] = $this->Mopencode->getRows(array('user_id'=>$this->session->userdata('userId')));
             //load the view
             $this->load->view('users/opennews_account_page', $data);
         }else{
             redirect('Opencode/login');
         }
-    }
+    }*/
      /*
      * User login
      */
@@ -98,7 +155,7 @@ if( ! defined('BASEPATH')) exit('No direct script access allowed');
                 $checkLogin = $this->Mopencode->getRows($con);
                 if($checkLogin){
                     $this->session->set_userdata('isUserLoggedIn',TRUE);
-                    $this->session->set_userdata('userId',$checkLogin['id']);
+                    $this->session->set_userdata('userId',$checkLogin['user_id']);
                     redirect('Opencode/home');
                 }else{
                     $data['error_msg'] = 'Wrong email or password, please try again.';
